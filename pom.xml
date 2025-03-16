@@ -12,11 +12,11 @@
     </properties>
 
     <dependencies>
-        <!-- Dependência principal para JUnit 5 -->
+
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
-            <version>5.10.0</version> <!-- Versão mais recente do JUnit -->
+            <version>5.10.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -26,12 +26,12 @@
             <scope>compile</scope>
         </dependency>
 
-        <!-- Você pode adicionar outras dependências necessárias aqui -->
+
     </dependencies>
 
     <build>
         <plugins>
-            <!-- Plugin de compilação Maven -->
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
